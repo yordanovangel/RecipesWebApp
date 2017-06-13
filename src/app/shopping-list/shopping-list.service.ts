@@ -27,3 +27,5 @@ export class ShoppingListService {
     this.ingredientChanged.emit(this.ingredients.slice());
   }
 }
+
+
