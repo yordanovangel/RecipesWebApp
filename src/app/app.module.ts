@@ -39,7 +39,7 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
     ReactiveFormsModule,
     AppRoutingModule
   ],
-  providers: [RecipeService, ShoppingListService],
+  providers: [RecipeService, ShoppingListService, RecipeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
